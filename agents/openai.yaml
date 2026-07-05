@@ -1,0 +1,4 @@
+interface:
+  display_name: "AdCoach"
+  short_description: "Strict ad copy rewrite coach"
+  default_prompt: "Use $adcoach to rewrite this headline with strict conversion-focused coaching."
