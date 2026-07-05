@@ -29,6 +29,17 @@ $adcoach 帮我改写：提升工作效率的方法
 
 The default output includes diagnosis, selected techniques, rewrite versions, strict critique, 0-3 scoring, and a next training drill.
 
+## Publish To GitHub
+
+This local folder is already a Git repository. To publish it as a private GitHub repository:
+
+```powershell
+gh auth login
+gh repo create adcoach --private --source . --remote origin --push
+```
+
+To publish it as a public repository instead, replace `--private` with `--public`.
+
 ## Structure
 
 - `SKILL.md`: skill trigger, workflow, output contract, and guardrails
