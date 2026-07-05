@@ -11,13 +11,25 @@ It helps with:
 
 ## Install
 
-Copy this folder to:
+Clone or copy this repository into your Codex skills directory as `adcoach`.
+
+Windows PowerShell:
 
 ```text
-C:\Users\ufo00_sq4c08f\.codex\skills\adcoach
+%USERPROFILE%\.codex\skills\adcoach
 ```
 
-Or clone the repository and place it under your Codex skills directory as `adcoach`.
+macOS / Linux:
+
+```text
+~/.codex/skills/adcoach
+```
+
+If you set `CODEX_HOME`, use:
+
+```text
+$CODEX_HOME/skills/adcoach
+```
 
 ## Usage
 
