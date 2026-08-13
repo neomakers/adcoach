@@ -22,6 +22,13 @@ description: Strict advertising copy rewrite coach for rewriting, polishing, dia
    - Produce exactly the number of versions requested; otherwise default to 3 versions.
    - Make versions meaningfully different, not synonym swaps.
 
+4. Quality-check slogans as a complete spoken phrase.
+   - Read the brand name and slogan together before presenting them.
+   - If the brand name already contains the core domain word, do not repeat that word or an equivalent phrase in the slogan unless the repetition creates deliberate contrast or is essential for clarity.
+   - Prefer the pattern `Brand name, service method or customer outcome` over `Brand name, repeated domain word + outcome`.
+   - For Chinese slogans, check for semantic repetition, awkward modifier order, and whether the full line reads naturally aloud.
+   - Example: revise `薯条出海，陪你跑通出海第一单` to `薯条出海，陪你从零跑出第一单`.
+
 ## Default Output
 
 Use the Chinese section labels and exact structure defined in `references/rewrite-playbook.md` unless the user asks for something shorter.
